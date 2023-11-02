@@ -1,0 +1,81 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+
+* {
+    margin: 0px;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    background: linear-gradient(to right, rgb(79, 154, 230), rgb(20, 103, 151));
+    height: 70px;
+}
+
+.jecrc {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.header ul {
+    display: flex;
+    position: absolute;
+    list-style: none;
+    right: 30px;
+}
+
+.header ul li {
+    margin-top: 22px;
+    float: right;
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+.header ul li a {
+    color: #fff;
+}
+
+.bodypart1 {
+    display: flex;
+}
+
+.bodypart1 .dabba1 {
+    width: 50vw;
+    /* background-color: aqua; */
+    height: 35vh;
+    display: flex;
+    align-items: center;
+}
+
+.dabba1 p {
+    font-size: 35px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.bodypart1 .dabba2 {
+    width: 50vw;
+    /* background-color: rgb(255, 166, 0); */
+    height: 35vh;
+    display: flex;
+    align-items: center;
+}
+
+.dabba2 p {
+    font-size: 19px;
+    margin-right: 85px;
+}
+
+.bodypart2 img {
+    height: 190px;
+    width: 190px;
+}
+
+.bodypart2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container2 {
+    background-color: grey;
+}

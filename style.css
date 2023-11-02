@@ -1,0 +1,74 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+
+* {
+    margin: 0px;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    background: linear-gradient(to right, rgb(79, 154, 230), rgb(20, 103, 151));
+    height: 70px;
+}
+
+.jecrc {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.header ul {
+    display: flex;
+    position: absolute;
+    list-style: none;
+    right: 30px;
+}
+
+.header ul li {
+    margin-top: 22px;
+    float: right;
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+.header ul li a {
+    color: #fff;
+}
+
+.body1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    height: 89.5vh;
+    width: 40vw;
+}
+
+.body1 p {
+    width: 500px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.body1 img {
+    width: 350px;
+    height: 130px;
+    color: inherit;
+}
+
+.btn button {
+    padding: 8px 15px;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.btn1 {
+    margin-left: 20px;
+}
+
+.btn2 {
+    margin-left: 35px;
+}
+
